@@ -1,6 +1,6 @@
 import streamlit as st
 from transformers import pipeline
-from langchain_classic.chains.retrieval_qa.base import RetrievalQA
+from langchain.chains import RetrievalQA
 from langchain_community.llms import HuggingFacePipeline
 
 from rag_pipeline import build_vectorstore
@@ -12,7 +12,6 @@ from email_service import send_email
 # Initialize database (IMPORTANT)
 # -------------------------------------------------
 init_db()
-
 # -------------------------------------------------
 # Page configuration
 # -------------------------------------------------
