@@ -62,7 +62,6 @@ SQLite
 
 SMTP (Email Notifications)
 
-📂 Project Structure
 AI-Doctor-Booking-Assistant/
 │
 ├── main.py               # Streamlit entry point (Chat + Navigation)
@@ -74,6 +73,7 @@ AI-Doctor-Booking-Assistant/
 ├── requirements.txt      # Project dependencies
 ├── .gitignore
 └── README.md
+
 
 🔄 Booking Flow
 
